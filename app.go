@@ -22,8 +22,8 @@ func main() {
 func factorial(x uint) (fac uint) {
 	if x == 0 {
 		return 1
-	} else {
-		fac = x * factorial(x-1)
-		return
 	}
+	fac = x * factorial(x-1)
+	return
+	
 }
